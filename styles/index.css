@@ -1,0 +1,46 @@
+body {
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.modal-title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 40%;
+}
+
+#content,
+#title {
+    background-color: rgb(231, 228, 228);
+    font-weight: 400;
+}
+
+.title-heading {
+    font-weight: 500;
+}
+
+.post-btn1 {
+    background: goldenrod;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px gray;
+    font-weight: 500;
+    padding: 8px;
+    position: absolute;
+    left: 43%;
+    top: 45%;
+    /* width: 15%; */
+}
+
+.post-btn2 {
+    background: goldenrod;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px gray;
+    font-weight: 500;
+    padding: 8px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    /* width: 15%; */
+}

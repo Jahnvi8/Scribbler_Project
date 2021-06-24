@@ -1,0 +1,95 @@
+body {
+    background: #F2994A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    /* border: 2px solid red; */
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%
+}
+
+.post-new {
+    border-radius: 25px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    margin: 25px;
+    width: 450px;
+    transition: box-shadow .3s;
+}
+
+.post-new:hover {
+    box-shadow: 0 0 5px 5px rgba(33, 33, 33, .2);
+}
+
+.side-box {
+    font-family: 'Itim', cursive;
+    height: 220px;
+    width: 20%;
+    text-align: center;
+    background-color: white;
+    padding: 40px 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.post-body {
+    font-family: 'Itim', cursive;
+    height: 220px;
+    background-color: #DCDCDC;
+    width: 83%;
+    padding: 15px;
+    font-size: 14px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.post-heading {
+    font-family: 'Itim', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.post-content {
+    font-family: 'Itim', cursive;
+    overflow: hidden;
+    white-space: normal;
+    height: 4.8em;
+    text-overflow: -o-three-dots-lastline;
+    color: black;
+    font-weight: 400;
+    margin: 15px;
+    font-size: 17px;
+}
+
+.del-button {
+    float: right;
+    padding-right: 10px;
+    size: 10px;
+    cursor: pointer;
+}
+
+.three-dots {
+    margin-left: 320px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding-right: 120px;
+    margin-bottom: 4px;
+}
